@@ -1,0 +1,464 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.navbar {
+    box-shadow: 0px 13px 12px 0px rgba(0, 181, 154, 0.08);
+}
+
+.nav-link {
+    color: #262626 !important;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #00B59A !important;
+}
+
+.active {
+    color: #00B59A !important;
+}
+
+.btn-talk {
+    border: 1px solid #00B59A;
+    color: #00B59A !important;
+    border-radius: 0px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.bg-1 {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    background-size: 100% 100% !important;
+    color: white;
+}
+
+.bg-1 .contact-btn {
+    background-color: #00B59A;
+    padding: 8px 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+.bg-1 .learn-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+/* ======================================= ABOUT US ============================ */
+
+.read-btn {
+    border: 1px solid #00B59A;
+    color: #00B59A;
+    padding: 8px 30px;
+    border-radius: 0px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.read-btn:hover {
+    color: white;
+    background-color: #00B59A;
+    transition: 0.6s;
+}
+.learn-btn:hover{
+    background-color:#00B59A;
+    color: white;
+    transition: 0.6s;
+    border: 1px solid #00B59A;
+}
+/* =========================================== WHY US ====================================== */
+
+.card-1 {
+    box-shadow: 6px 15px 40px 0px rgba(11, 186, 163, 0.05);
+    background-color: white;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: 4s;
+  }
+
+.card-1:hover {
+    background-color: #00B59A;
+    
+    
+}
+
+.card-1:hover p {
+    color: white;
+}
+
+.card-1:hover .color-1 {
+    color: white;
+}
+
+.color-1 {
+    color: #00B59A;
+}
+
+.card-1 #a {
+    display: inline;
+}
+
+.card-1 #b {
+    display: none;
+}
+
+.card-1:hover #a {
+    display: none;
+}
+
+.card-1:hover #b {
+    display: inline;
+}
+
+.card-1 .box {
+    position: absolute;
+    left: 40%;
+    top: -13%;
+}
+
+.color-2 {
+    color: #616161;
+    font-size: 0.9em;
+}
+
+.card-2 {
+    background-color: #D0F6F1;
+    box-shadow: 0px 16px 50px 0px rgba(11, 186, 163, 0.08);
+}
+
+.margin-1 {
+    margin-left: 10rem;
+    width: 100%;
+    z-index: 7;
+}
+
+.bg-2 {
+    background-color: #EBF1F7;
+    box-shadow: 0px 16px 50px 0px rgba(243, 63, 135, 0.1);
+}
+
+/* =========================================== SERVICES ================================== */
+
+.bg-color {
+    background-color: #00B59A;
+}
+
+.btn-submit {
+    background-color: #00B59A;
+    color: white;
+    border: 1px solid #00B59A;
+    padding: 6px 26px;
+    border-radius: 0px;
+    font-weight: 500;
+    box-shadow: 0px 46px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ======================================== FOOTER ================================= */
+
+.fotor-bg {
+    background-color: #007777;
+    color: white;
+}
+.bg-color1{
+    background-color: #007777;
+}
+.fotor-bg .footer-text {
+    color: white;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.footer-text:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.submit-btn {
+    border: 1px solid #262626;
+    color: #262626;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+.color-3 {
+    color: #262626;
+}
+
+@media (max-width: 780px) {
+    .bg-1 {
+        background-image: url(../images/bg.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: auto 100% !important;
+        color: white;
+    }
+    .margin-1 {
+        margin-left: 4rem;
+    }
+    .size-1{
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 360px) {
+    .margin-1 {
+        margin-left: 0rem;
+    }
+
+}
+/* ============================================================== SERVICES PAGE ========================================= */
+
+.bg-3 {
+    background-image: url(../images/bg-srvice.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100% !important;
+    color: white;
+}
+
+.color-green {
+    color: #00B59A;
+    font-weight: 700 !important;
+}
+
+.color-4 {
+    color: #00B59A;
+}
+.active-tab {
+    color: #00B59A;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.active-tab {
+    border-radius: 5px;
+}
+
+.tab-btn {
+    background-color: white;
+    color: #262626;
+    height: 85px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.tab-btn:focus {
+    background-color: #00B59A;
+    color: white;
+    height: 85px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 270px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #00B59A;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 10px 30px;
+  }
+.tab-card {
+    flex-grow: 1;
+}
+#link a #b{
+    display: none;
+}
+#link a:hover #b{
+    display: inline;
+}
+#link a:hover #a{
+    display: none;
+}
+/* ========================================= OUR PACKAGES ==================================== */
+.package-card{
+    background-color: transparent;
+    border: 1p solid #CFD3D7;
+}
+.package-card:hover{
+    background-color: white;
+  
+}
+.package-card .card-body .size-2{
+    color: #616161;
+    font-size: 16px;
+}
+.color-black{
+    color:#616161 ;
+}
+.package-card:hover .start-btn{
+    background-color:#00B59A;
+    color: white;
+    box-shadow: 0px 40px 28px rgba(0, 0, 0, 0.1);
+}
+.start-btn{
+    background-color: transparent;
+    border: 1px solid #00B59A;
+    color: #00B59A;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 13px 60px;
+    border-radius: 0px;
+}
+.bg-service{
+        background-image: url(../images/bg-srvice.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: 100% 100% !important;
+}
+.custom-color{
+    color: #463E37;
+}
+/* Grow */
+.hvr-grow {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 3px 28px 40px rgba(70, 62, 55, 0.12);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .accordion {
+    margin-top: 60px;
+
+}
+.accordion .card .card-header {
+    background: transparent;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+    margin-bottom: -2px;
+    font-family: "Roboto", sans-serif;
+}
+.material-icons {
+    background-color: #595959;
+    border-radius: 50px;
+}
+
+.accordion .card-header h2 span {
+    float: left;
+    margin-top: 10px;
+}
+
+.accordion .card-header .btn {
+    font-size: 1.04rem;
+    font-weight:bold;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    color: #00B59A;
+    font-weight: bold;
+}
+
+.color-5{
+    color: #262626;
+    font-weight: 500;
+}
+
+.accordion .card-header i {
+    float: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    background-color: #00B59A;
+    border-radius: 50px;
+    color: white;
+}
+
+.accordion .card-header button:hover {
+    color: #23384e;
+}
+
+.accordion>.card:not(:last-of-type) {
+    border-bottom: 1px solid #0AAB98!important;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.accordion .highlight {
+    color: #595959;
+}
+
+.colaspe-card {
+    border: 1px solid #0AAB98;
+    background-color: transparent;
+}
+.contact-form{
+    height: 50px;
+}
+.contact-form:hover{
+    border: 2px solid #00B59A !important;
+}
+.contact-form:focus{
+    border: 2px solid #00B59A !important;
+    box-shadow: 0px 0px 0px;
+}
+.btn-modal{
+    background-color: transparent;
+    border: 1px solid #00B59A;
+    color: #00B59A;
+    padding: 9px 33px;
+    border-radius: 0px;
+    font-weight: 600;
+}
+.modal-content .btn-modal:hover{
+    background-color:#00B59A;
+   color: white;
+}
+.modal-content .modal-head{
+    border-bottom: 0px;
+}
+.bg-color .cursor-1{
+    cursor: pointer;
+}
